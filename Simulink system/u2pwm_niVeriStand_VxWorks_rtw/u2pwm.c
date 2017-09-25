@@ -7,9 +7,9 @@
  *
  * Code generation for model "u2pwm".
  *
- * Model version              : 1.21
+ * Model version              : 1.23
  * Simulink Coder version : 8.11 (R2016b) 25-Aug-2016
- * C source code generated on : Wed Sep 20 13:20:17 2017
+ * C source code generated on : Mon Sep 25 11:48:28 2017
  *
  * Target selection: NIVeriStand_VxWorks.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -1426,9 +1426,9 @@ RT_MODEL_u2pwm_T *u2pwm(void)
  * NI VeriStand Model Framework code generation
  *
  * Model : u2pwm
- * Model version : 1.21
+ * Model version : 1.23
  * VeriStand Model Framework version : 2017.0.0.143 (2017)
- * Source generated on : Wed Sep 20 13:20:16 2017
+ * Source generated on : Mon Sep 25 11:48:27 2017
  *========================================================================*/
 
 /* This file contains automatically generated code for functions
@@ -3438,8 +3438,8 @@ NI_Task NI_TaskList[] DataSection(".NIVS.tasklist") =
 int32_t NI_NumTasks DataSection(".NIVS.numtasks") = 1;
 static const char* NI_CompiledModelName DataSection(".NIVS.compiledmodelname") =
   "u2pwm";
-static const char* NI_CompiledModelVersion = "1.21";
-static const char* NI_CompiledModelDateTime = "Wed Sep 20 13:20:16 2017";
+static const char* NI_CompiledModelVersion = "1.23";
+static const char* NI_CompiledModelDateTime = "Mon Sep 25 11:48:27 2017";
 static const char* NI_builder DataSection(".NIVS.builder") =
   "NI Model Framework 2017.0.0.143 (2017) for Simulink Coder 8.11 (R2016b)";
 static const char* NI_BuilderVersion DataSection(".NIVS.builderversion") =
