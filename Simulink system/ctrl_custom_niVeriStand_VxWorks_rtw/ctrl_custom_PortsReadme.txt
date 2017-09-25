@@ -1,31 +1,33 @@
 <portlist>
 <inport> Id = "1"  Name = "Input to model" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "2"  Name = "Input1/reset" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "3"  Name = "eta_QTM/x_m" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "4"  Name = "eta_QTM/y_m" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "5"  Name = "eta_QTM/psi_m" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "6"  Name = "x_ref" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "7"  Name = "y_ref" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "2"  Name = "x_ref" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "3"  Name = "y_ref" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "4"  Name = "eta_QTM/x_m" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "5"  Name = "eta_QTM/y_m" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "6"  Name = "eta_QTM/psi_m" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "7"  Name = "psi_ref [deg]" Width = "1" DataType = "real_T" </inport>
 <inport> Id = "8"  Name = "Control/alpha_u" Width = "1" DataType = "real_T" </inport>
 <inport> Id = "9"  Name = "Control/K1_u" Width = "1" DataType = "real_T" </inport>
 <inport> Id = "10"  Name = "Control/K1_r" Width = "1" DataType = "real_T" </inport>
 <inport> Id = "11"  Name = "Control/alpha_r" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "12"  Name = "psi_ref [deg]" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "13"  Name = "IMU/Acc_x" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "14"  Name = "IMU/Acc_y" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "15"  Name = "IMU/Acc_z" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "16"  Name = "IMU/Gyro_x" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "17"  Name = "IMU/Gyro_y" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "18"  Name = "IMU/Gyro_z" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "19"  Name = "Input1/Control Gains/K_p_x" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "20"  Name = "Input1/Control Gains/K_p_y" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "21"  Name = "Input1/Control Gains/K_p_psi" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "22"  Name = "Input1/Control Gains/K_i_psi" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "23"  Name = "Input1/Control Gains/K_i_x" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "24"  Name = "Input1/Control Gains/K_i_y" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "25"  Name = "Input1/Control Gains/K_d_psi" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "26"  Name = "Input1/Control Gains/K_d_x" Width = "1" DataType = "real_T" </inport>
-<inport> Id = "27"  Name = "Input1/Control Gains/K_d_y" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "12"  Name = "Control/delta_psi" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "13"  Name = "Control/delta_p" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "14"  Name = "Input1/reset" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "15"  Name = "IMU/Acc_x" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "16"  Name = "IMU/Acc_y" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "17"  Name = "IMU/Acc_z" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "18"  Name = "IMU/Gyro_x" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "19"  Name = "IMU/Gyro_y" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "20"  Name = "IMU/Gyro_z" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "21"  Name = "Input1/Control Gains/K_p_x" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "22"  Name = "Input1/Control Gains/K_p_y" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "23"  Name = "Input1/Control Gains/K_p_psi" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "24"  Name = "Input1/Control Gains/K_i_psi" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "25"  Name = "Input1/Control Gains/K_i_x" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "26"  Name = "Input1/Control Gains/K_i_y" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "27"  Name = "Input1/Control Gains/K_d_psi" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "28"  Name = "Input1/Control Gains/K_d_x" Width = "1" DataType = "real_T" </inport>
+<inport> Id = "29"  Name = "Input1/Control Gains/K_d_y" Width = "1" DataType = "real_T" </inport>
 <outport> Id = "1"  Name = "Output to Workspace" Width = "1" DataType = "real_T" </outport>
 <outport> Id = "2"  Name = "x_t" Width = "1" DataType = "real_T" </outport>
 <outport> Id = "3"  Name = "y_t" Width = "1" DataType = "real_T" </outport>
